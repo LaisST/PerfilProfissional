@@ -8,7 +8,7 @@
     <div class="blocoP" *ngFor="let item of formacaoAcademica">
       <p><b>Curso: </b>{{ item.curso }}</p>
       <p><b>Faculdade: </b>{{ item.escola }}</p>
-      <p><b>Conclusão: </b>{{ item.conclusao }}</p>
+      <p><b>Conclusão: </b>{{ item.conclusao | date }}</p>
     </div>
   </div>
 <div class="bloco">
@@ -26,7 +26,7 @@
       <input type="text" class="input-busca" (keyup)="searchCurso($event)" />
   
   <div class="blocoP" *ngFor="let item of filteredQualificacoes">
-    <p>{{ item.curso }}</p><a class="button" (click)="navigateToCertificado()">Certificado</a>
+    <p>{{ item.curso }}</p><a class="button" (click)="navigateToCertificado(item)">Certificado</a>
   </div>
   <div class="mensagem" *ngIf="filteredQualificacoes.length === 0">
     <b>Curso Não Encontrado!</b>

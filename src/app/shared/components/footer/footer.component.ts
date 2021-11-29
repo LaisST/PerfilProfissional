@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent implements OnInit {
-  dataUpdate = '11/22/2021';
+  dataUpdate = '12/02/2021';
 
   constructor() {}
 

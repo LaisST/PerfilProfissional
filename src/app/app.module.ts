@@ -9,6 +9,7 @@ import { registerLocaleData } from '@angular/common';
 import { LOCALE_ID } from '@angular/core';
 import localePt from '@angular/common/locales/pt';
 import { ContatoModule } from './features/contato/contato.module';
+import { SharedModule } from './shared/shared.module';
 
 registerLocaleData(localePt);
 
@@ -22,7 +23,8 @@ registerLocaleData(localePt);
     AppRoutingModule, 
     HomeModule, 
     CurriculoModule, 
-    ContatoModule
+    ContatoModule,
+    SharedModule
   ],
   providers: [
     {

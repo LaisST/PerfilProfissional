@@ -9,8 +9,6 @@ import { QualificacoesService } from '../../services/qualificacoes.service';
   styleUrls: ['./qualificacoes.component.scss']
 })
 export class QualificacoesComponent implements OnInit {
-  @Input()
-  condition?: boolean;
 
   @Input()
   qualificacoes?: Qualificacoes;
@@ -23,13 +21,13 @@ export class QualificacoesComponent implements OnInit {
     {
       curso: 'Tecnólogo em Análise e Desenvolvimento de Sistemas',
       escola: 'Fatec Ferraz de Vasconcelos',
-      conclusao: 'Previsto para 12/2023',
+      conclusao: 'Previsto para 12/01/2023',
     },
 
     {
       curso: 'Turismo',
       escola: 'Universidade Nove de Julho (UNINOVE)',
-      conclusao: '08/2015',
+      conclusao: '08/01/2015',
     },
   ];
   
@@ -65,8 +63,7 @@ export class QualificacoesComponent implements OnInit {
     this.filteredQualificacoes = cursos;
     }
 
-    navigateToCertificado(){
-      this.router.navigateByUrl(`certificado/${this.cursos}`);
-      /**this.router.navigateByUrl(`certificado/${this.cursos?.id}`); */
+    navigateToCertificado(curso: Qualificacoes){
+      this.router.navigateByUrl(`certificado/${curso.id}`);
     }
 }
