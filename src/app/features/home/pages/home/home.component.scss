@@ -12,12 +12,6 @@ div {
   width: 800px;
 }
 
-.blocoP {
-  background-color: #ffffff;
-  margin: 20px auto 0px auto;
-  width: 750px;
-}
-
 .blocoImg {
   background-color: #161b22;
   margin: 20px auto 0px auto;
@@ -27,14 +21,14 @@ div {
 
 p {
   text-align: justify;
-  color: #f0f6fc;
+  color: #dddddd;
   text-decoration: none;
 }
 
 h2 {
   border-bottom: 1px solid #00F7FF;
   font-family: sans-serif;
-  color: #f0f6fc;
+  color: #dddddd;
   font-size: 15pt;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -43,7 +37,7 @@ h2 {
 h1 {
   font-family: Helvetica, sans-serif;
   font-size: 30pt;
-  color: #f0f6fc;
+  color: #dddddd;
   text-shadow: 2px 2px 2px rgb(0, 247, 255, 0.5);
   padding: 10px;
   margin-top: 20px;
@@ -51,15 +45,12 @@ h1 {
   text-align: center;
 }
 
-
-
 img {
   max-width: 17%;
   margin: 10px;
   float: left;
   border-radius: 20%;
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
-
 }
 
 

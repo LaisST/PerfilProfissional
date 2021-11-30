@@ -1,8 +1,7 @@
-
 <div>
   <h1>{{ titulo }}</h1>
   <div class="bloco" *ngFor="let item of experienciaProfissional">
-  <img src="{{item.logo}}">
+    <img src="{{item.logo}}">
     <p><b>Empresa: </b>{{ item.empresa }}</p>
     <p><b>Cargo: </b>{{ item.cargo }}</p>
     <p><b>De: </b>{{ item.dataInicio }} <b>Até: </b>{{ item.dataFim }}</p>

@@ -7,11 +7,17 @@ import { Component, OnInit } from '@angular/core';
 export class ContatoPageComponent implements OnInit {
   dadosContato = {
     endereco: "Poá/Sp",
-    telefone: "(11) 99485-3110 / (11) 46105769",
+    telefone: "(11) 99485-3110 / (11) 4610-5769",
     email: "laiscostast@gmail.com"
   };
 
+  mailto(emailAddress: string, emailSubject: String) {
+    return "mailto:" + emailAddress + "?subject=" + emailSubject
+  }
+
   constructor() { }
+
+ 
 
   ngOnInit(): void {
   }

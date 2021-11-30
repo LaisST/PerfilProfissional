@@ -15,16 +15,34 @@ div {
 h1 {
   font-family: Helvetica, sans-serif;
   font-size: 30pt;
-  color: #f0f6fc;
-  text-shadow: 1px 1px 1px rgba(0, 247, 255, 0.6);
+  color: #dddddd;
+  text-shadow: 2px 2px 2px rgb(0, 247, 255, 0.5);
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 0px;
   text-align: center;
 }
 
+h2 {
+  border-bottom: 1px solid #00F7FF;
+  font-family: sans-serif;
+  color: #dddddd;
+  font-size: 15pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 p {
   text-align: justify;
-  color: #f0f6fc;
+  color: #dddddd;
+  text-decoration: none;
+}
+
+.button{
+  color: #121212;
+  cursor: pointer;
+  background-color: #00F7FF;
+  padding: 5px;
+  width: 80px;
   text-decoration: none;
 }

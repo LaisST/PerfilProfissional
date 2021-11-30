@@ -8,30 +8,19 @@ div {
 }
 
 a {
-  color: #f0f6fc;
+  color: #dddddd;
   text-decoration: none;
+  cursor: pointer;
 }
 a:hover {
-  text-decoration: underline;
+  color: #00F7FF
 }
-
-h1 {
-  font-family: Helvetica, sans-serif;
-  font-size: 30pt;
-  color: #f0f6fc;
-  text-shadow: 1px 1px 1px rgba(0, 247, 255, 0.6);
-  padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
-
 ul {
   list-style: none;
   position: static;
   padding: -10px;
   padding-left: 20%;
   background-color: #161b22;
-  
 }
 
 li {

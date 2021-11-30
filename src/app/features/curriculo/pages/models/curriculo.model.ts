@@ -2,12 +2,12 @@ import { Data } from "@angular/router";
 
 export interface Qualificacoes {
   id: number;
-  certificado: any;
+  certificado: String;
   curso: string
 }
 
 export interface Experiencia{
-  logo: any;
+  logo: String;
   empresa: string;
   cargo: string;
   dataEntrada: string | Data;

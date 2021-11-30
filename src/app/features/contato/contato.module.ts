@@ -2,18 +2,22 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { ContatoPageComponent } from './pages/contato-page/contato-page.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 
 
 @NgModule({
   declarations: [
-    ContatoPageComponent
+    ContatoPageComponent,
+   
 
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    FormsModule
   ]
 })
 export class ContatoModule { }
