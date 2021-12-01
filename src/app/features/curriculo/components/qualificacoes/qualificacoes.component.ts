@@ -38,7 +38,7 @@ export class QualificacoesComponent implements OnInit {
 
     { idioma: "Espanhol",
       escola: "Fatec",
-      nivel: "Básico"}
+      nivel: "Básico - A2"}
 
   ]
 

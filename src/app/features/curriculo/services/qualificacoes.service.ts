@@ -9,7 +9,7 @@ export class QualificacoesService {
   qualificacoes: Array<Qualificacoes> = [
     {
       id: 1,
-      certificado: "/assets/certificados/Como organizar o orçamento familiar.pdf_1.jpg",
+      certificado: "../assets/certificados/Como organizar o orçamento familiar.pdf_1.jpg",
       curso: "Como Organizar o Orçamento Familiar - FGV Online - 12 horas",
     },
 
